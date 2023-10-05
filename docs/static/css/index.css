@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+
+body{
+    background-color: rgb(247, 244, 232);
+}
+
+.container{
+
+    margin-top: 70px;
+}
+
+.container2{
+
+    
+}
+
+.elemento{
+    padding-top: 50px;
+    display: inline-flex;
+    margin: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.logo2{
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+}
+
+.logochild{
+    text-align: center;
+}
+
+.imglogo{
+    width: 310px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar, .container-fluid, a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.navbar{
+    background-color: rgb(25, 26, 20);
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+.card .card-body .btn{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.card .card-body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    background-color: rgb(247, 244, 232);
+}
+
+.card .card-body h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    background-color: rgb(247, 244, 232);
+}
+
+.card .card-body .btn{
+    background-color: #d0faff;
+}
+
+.cart{
+    width: 20%;
+}
+
+.card:hover{
+    transform: scale(1.15);
+    transition: all 0.7s;
+}
+
+.menu{
+    width: 30px;
+}
+
+.card{
+    width: 16em;
+    border-style: none;
+}
+
+.container .navbar .container-fluid{
+    font-size: 25px;
+    color: white;
+}
+
+.container .navbar .container-fluid a:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+
+.container .navbar .container-fluid a{
+    font-size: 25px;
+}
+
+
+.container .navbar {
+    z-index: 2;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: rgb(247, 244, 232);
+}
+
+.texto1{
+    margin-left: 5%;
+}
+
+.punto{
+    width: 16px;
+}
+
+.carro{
+    width: 36px;
+}
+
+.social{
+    width: 58px;
+    margin: 15px;
+}
+
+.userblack{
+    width: 34px;
+}
+
+.secondnav .navbar{
+    margin-top: 40px;
+    border-bottom: 0px solid black;
+    border-top: 0px solid black;
+}
+
+.secondnav .navbar .container-fluid a{
+    font-size: 40px;
+}
+
+.secondnav .navbar .container-fluid .d-flex button{
+    color: rgb(25, 26, 20);
+}
+
+.lupa{
+    width: 24px;
+}
+
+.imgSlides{
+    opacity: 0.5;
+}
+
+.container2 .elemento .card .card-img-overlay{
+    color: rgba(255, 255, 255, 0);
+}
+
+.container2 .elemento .card .card-img-overlay:hover{
+    color: rgb(255, 255, 255);
+    margin-top: 75%;
+    transition: all 0.7s;
+}
+
+
+@media screen and (max-width: 991px) {
+  /* Cambiar el color de fondo a rojo en pantallas pequeñas */
+  .container .navbar {
+    border-bottom: none;
+  }
+
+  .container .navbar .container-fluid{
+    background-color: rgb(247, 244, 232);
+}
+
+.container2 .elemento .card .card-img-overlay{
+    color: rgb(255, 255, 255);
+}
+
+.card{
+    width: 8em;
+}
+
+.container .secondnav{
+    margin-bottom: 50px;
+}
+}
